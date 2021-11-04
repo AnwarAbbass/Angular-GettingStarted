@@ -88,4 +88,7 @@ export class ProductListComponent implements OnInit{
       console.log('in oninit');
       this.listFilter='cart'
     }
+    OnNotify(message:string):void{
+      this.pageTitle='Product List '+message;
+    }
 }
